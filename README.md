@@ -6,3 +6,4 @@
 * Implementación de usuarios y permisos
   * Qué tipo de usuario puede ingresar a la app?
 * Firebase Auth
+ 
