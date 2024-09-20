@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:pai_flutter/categoriasScreen.dart';
-import 'package:pai_flutter/dashboardScreen.dart';
-import 'package:pai_flutter/empleadosScreen.dart';
-import 'package:pai_flutter/inventarioScreen.dart';
-import 'package:pai_flutter/pagosScreen.dart';
-import 'package:pai_flutter/pedidosScreen.dart';
-import 'package:pai_flutter/proveedoresScreen.dart';
+import 'package:pai_flutter/views/categorias/categoriasScreen.dart';
+import 'package:pai_flutter/views/dashboard/dashboardScreen.dart';
+import 'package:pai_flutter/views/empleados/empleadosScreen.dart';
+import 'package:pai_flutter/views/inventario/inventarioScreen.dart';
+import 'package:pai_flutter/views/pagos/pagosScreen.dart';
+import 'package:pai_flutter/views/pedidos/pedidosScreen.dart';
+import 'package:pai_flutter/views/proveedores/proveedoresScreen.dart';
 import 'package:pai_flutter/providers/screenProvider.dart';
 import 'package:pai_flutter/utils/constants.dart';
-import 'package:pai_flutter/ventasScreen.dart';
+import 'package:pai_flutter/views/ventas/ventasScreen.dart';
 import 'package:provider/provider.dart';
 
 class SideBar extends StatefulWidget {
