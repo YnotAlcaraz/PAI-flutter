@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:pai_flutter/categoriasScreen.dart';
-import 'package:pai_flutter/empleadosScreen.dart';
-import 'package:pai_flutter/inventarioScreen.dart';
-import 'package:pai_flutter/pagosScreen.dart';
-import 'package:pai_flutter/pedidosScreen.dart';
-import 'package:pai_flutter/proveedoresScreen.dart';
+import 'package:pai_flutter/views/categorias/categoriasScreen.dart';
+import 'package:pai_flutter/views/empleados/empleadosScreen.dart';
+import 'package:pai_flutter/views/inventario/inventarioScreen.dart';
+import 'package:pai_flutter/views/pagos/pagosScreen.dart';
+import 'package:pai_flutter/views/pedidos/pedidosScreen.dart';
+import 'package:pai_flutter/views/proveedores/proveedoresScreen.dart';
 import 'package:pai_flutter/providers/categoriasProvider.dart';
 import 'package:pai_flutter/providers/screenProvider.dart';
 import 'package:pai_flutter/utils/constants.dart';
 import 'package:pai_flutter/utils/sidebar.dart';
-import 'package:pai_flutter/ventasScreen.dart';
+import 'package:pai_flutter/views/ventas/ventasScreen.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -41,6 +41,7 @@ class MyApp extends StatelessWidget {
           ),
           fontFamily: 'Helvetica',
         ),
+        //TODO: Change routes for MaterialPageRoute (?)
         initialRoute: '/',
         routes: {
           '/': (context) => MyHomePage(),

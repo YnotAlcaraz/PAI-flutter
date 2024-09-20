@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pai_flutter/dashboardScreen.dart';
+import 'package:pai_flutter/views/dashboard/dashboardScreen.dart';
 
 class ScreenProvider extends ChangeNotifier {
   Widget _currentScreen = const DashboardScreen();
